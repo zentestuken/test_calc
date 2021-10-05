@@ -70,6 +70,3 @@ let driver = new webdriver.Builder().forBrowser('chrome').build();
 
 
 })();
-
-
-// Some text
