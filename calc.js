@@ -4,7 +4,8 @@ let webdriver = require('selenium-webdriver'),
 
 let driver = new webdriver.Builder().forBrowser('chrome').build();
 
-// testing online calculator's basic arithmetic operations (add, subtract, multiply, divide)
+
+// testing online calculator's basic arithmetic operations (+, -, *, /)
 // first and second numbers are generated as integers (1 to 9)
 // test cycles through all four basic operations
 (async function testRun() {
